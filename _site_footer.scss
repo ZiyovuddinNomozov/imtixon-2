@@ -1,0 +1,209 @@
+ .site-footer {
+     position: relative;
+     width: 1300px;
+     height: 300px;
+     left: 0px;
+     top: 3252px;
+     background-color: #495567;
+ }
+ 
+ .site-footer-item-list h2 {
+     position: absolute;
+     width: 415px;
+     height: 96px;
+     left: 165px;
+     top: 70px;
+     left: 200px;
+     font-family: Space Mono;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 48px;
+     line-height: 48px;
+     /* or 100% */
+     letter-spacing: -2.14286px;
+     color: #FFFFFF;
+ }
+ 
+ .site-footer-item-list-button {
+     position: absolute;
+     // margin-top: 10px;
+     margin-left: -160px;
+ }
+ 
+ .footer-button-1 {
+     position: relative;
+     margin-top: 120px;
+     margin-left: 950px;
+ }
+ 
+ .footer-button-2 {
+     margin-top: 100px;
+ }
+ 
+ .site-footer-bgc-img {
+     background-image: url("../img/footer-radius.png");
+     background-repeat: no-repeat;
+     position: absolute;
+     width: 347px;
+     height: 347px;
+     margin-left: 450px;
+     margin-top: 170px;
+ }
+ 
+ .site-footer-bgc-img-2 {
+     background-image: url("../img/footer-radius.png");
+     background-repeat: no-repeat;
+     position: absolute;
+     width: 347px;
+     height: 347px;
+     margin-left: 800px;
+     margin-top: 170px;
+ }
+ 
+ .site-footer-bgc-img-3 {
+     background-image: url("../img/footer-radius-2.png");
+     background-repeat: no-repeat;
+     position: absolute;
+     width: 347px;
+     height: 347px;
+     margin-left: 1160px;
+     margin-top: 170px;
+ }
+ 
+ .site-main-footer-item {
+     position: absolute;
+     width: 1300px;
+     height: 96px;
+     top: 3670px;
+     background-color: #333A44;
+ }
+ 
+ .site-nav-footer {
+     display: flex;
+     text-align: center;
+     align-items: center;
+ }
+ 
+ .nav-icon-footer {
+     margin-left: 100px;
+ }
+ 
+ .site-nav-item-footer {
+     display: flex;
+     text-align: center;
+     margin-left: 150px;
+ }
+ 
+ .site-nav-item-list-footer a {
+     height: 25px;
+     top: -20px;
+     font-family: Space Mono;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 15px;
+     line-height: 25px;
+     color: #939CAA;
+     margin-left: 100px;
+ }
+ 
+ .site-nav-item-list-footer a:hover {
+     color: #FCB72B;
+     ;
+ }
+ 
+ .nav-icon-footer img {
+     position: absolute;
+     margin-top: 15px;
+ }
+ 
+ .site-footer-sot-set-item {
+     position: relative;
+     display: flex;
+     //  top: 3700px;
+     margin-left: 1000px;
+     margin-top: 3300px;
+ }
+ 
+ .site-footer-sot-set-list {
+     margin-left: 20px;
+ }
+ 
+ @media only screen and (max-width:768px) {
+     .site-footer {
+         position: absolute;
+         margin-top: 800px;
+         height: 300px;
+         width: 650px;
+         padding: 50px 30px;
+     }
+     .site-footer-bgc-img {
+         margin-bottom: 100px;
+     }
+     .site-footer {
+         flex-direction: row;
+     }
+     .site-footer-item-list h2 {
+         position: absolute;
+         margin-top: 60px;
+     }
+     .bgc-img {
+         justify-content: center;
+         align-items: center;
+         margin-left: -500px;
+         margin-top: 0px;
+     }
+     .site-footer-bgc-img {
+         position: absolute;
+         // margin-left: -100px;
+         margin-top: 200px;
+     }
+     .site-footer-bgc-img-2 {
+         position: absolute;
+         // margin-left: 200px;
+         margin-top: 200px;
+     }
+     .site-footer-bgc-img-3 {
+         margin-top: 200px;
+     }
+     .site-footer-item-list-button {
+         margin-top: 80px;
+         justify-content: center;
+         margin-left: 30px;
+     }
+     .footer-button-1 {
+         position: relative;
+         margin-left: 0;
+         // margin-right: 250px;
+         margin-top: 100px;
+         width: 100;
+         height: 56;
+     }
+     .footer-button-2 {
+         position: absolute;
+         margin-left: 100px;
+         width: 100;
+         height: 56;
+     }
+     .site-main-footer-item {
+         position: relative;
+         margin-top: 670px;
+         margin-left: -10px;
+         width: 715px;
+         height: 96px;
+     }
+     .nav-icon-footer {
+         margin-left: 10px;
+     }
+     .site-nav-item-list-footer {
+         margin-left: -80px;
+     }
+     .site-footer-sot-set-item {
+         margin-top: 3600px;
+         margin-left: 450px;
+         //  position: relative;
+         padding: 10px;
+     }
+     .site-footer-sot-set-item-list a img {
+         margin-right: 20px;
+     }
+ }

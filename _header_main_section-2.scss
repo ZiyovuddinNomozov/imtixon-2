@@ -1,0 +1,109 @@
+.section-main-site-2 {
+    position: absolute;
+}
+
+.section-main-site-bgc-img-2 {
+    background-image: url("../img/city.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 445px;
+    height: 445px;
+    right: -150px;
+    top: 1959px;
+    border-radius: 50%;
+}
+
+.section-main-site-item-list-2 h3 {
+    position: absolute;
+    width: 445px;
+    height: 96px;
+    left: 770px;
+    top: 1950px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+.section-main-site-item-list-2 p {
+    position: absolute;
+    width: 445px;
+    height: 100px;
+    left: 770px;
+    top: 2100px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #939CAA;
+}
+
+.section-main-site-item-list-2 a {
+    position: absolute;
+    width: 180px;
+    height: 53px;
+    left: 40px;
+    margin-top: 2050px;
+    margin-left: 730px;
+    background-color: #FCB72B;
+    font-family: Space Mono;
+    font-style: normal;
+    top: calc(50% - 25px/2);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-main-site-item-list-2 a:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+
+@media only screen and (max-width:768px) {
+    .section-main-site {
+        margin-top: 900px;
+        position: absolute;
+    }
+    .section-main-site-item-list-2 {
+        // margin-top: 900px;
+        margin-left: -400px;
+        position: absolute;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-main-site-bgc-img-2 {
+        margin-top: 350px;
+        width: 330px;
+        height: 330px;
+    }
+    .section-main-site-item-list-2 h3 {
+        position: absolute;
+        margin-left: -300px;
+        font-size: 38px;
+    }
+    .section-main-site-item-list-2 p {
+        margin-left: -300px;
+        width: 457px;
+        height: 96px;
+    }
+    .section-main-site-item-list-2 a {
+        margin-top: 2250px;
+        margin: 20px;
+        width: 150px;
+        height: 53px;
+    }
+    .section-main-site-bgc-img-2 {
+        // margin-top: 350px;
+        width: 330px;
+        height: 330px;
+    }
+}

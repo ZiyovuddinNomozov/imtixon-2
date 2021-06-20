@@ -1,0 +1,114 @@
+.careers-item-list-img {
+    position: absolute;
+    background-image: url("../img/Carers-xabash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.careers-item {
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.careers-item-list h2 {
+    position: absolute;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    width: 430px;
+    height: 96px;
+    /* or 100% */
+    letter-spacing: -3.14286px;
+    color: #495567;
+    // margin-top: -1500px;
+    text-align: left;
+}
+
+.careers-item-list p {
+    // position: absolute;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    // line-height: 25px;
+    width: 370px;
+    height: 100px;
+    /* or 167% */
+    color: #939CAA;
+    margin-top: 200px;
+}
+
+.careers-btn {
+    position: absolute;
+    // margin-top: -20px;
+    // margin-left: -100px;
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    color: white;
+    border: none;
+}
+
+.careers-btn:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+
+.Why-join-us {
+    position: absolute;
+    width: 540px;
+    height: 48px;
+    margin-left: 450px;
+    top: 1050px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    align-items: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+@media only screen and (max-width:768px) {
+    .careers-item {
+        position: absolute;
+        margin-top: 600px;
+        // text-align: center;
+        align-items: center;
+    }
+    .careers-item-list-img {
+        margin-top: -700px;
+        margin-left: -20px;
+        position: absolute;
+    }
+    .careers-item-list h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 38px;
+        margin-left: -50px;
+    }
+    .careers-item-list p {
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+    }
+    .careers-btn {
+        margin-left: 110px;
+    }
+    .careers-item-manager {
+        margin-top: -1500px;
+    }
+}

@@ -1,0 +1,141 @@
+.about-footer-bgc-img {
+    position: absolute;
+    background-image: url("../img/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 300px;
+    margin-top: 470px;
+}
+
+.about-footer-main-item {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 500px;
+}
+
+.about-footer-main-list h2 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    width: 415px;
+    height: 96px;
+}
+
+.about-footer-main-list {
+    margin-left: 50px;
+}
+
+.about-footer-main-list-button-1 {
+    // position: absolute;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+
+.about-footer-main-list-button-2 {
+    // position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.about-site-nav-footer {
+    // position: absolute;
+    width: 1440px;
+    height: 96px;
+    left: 0px;
+    margin-top: 750px;
+    background-color: #333A44;
+}
+
+.about-site-nav-item-footer {
+    display: flex;
+    margin-left: 150px;
+}
+
+.about-site-nav-item-list-footer {
+    display: flex;
+    margin-top: 43px;
+    margin-right: 100px;
+}
+
+.about-nav-icon-footer {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.about-site-nav-item-list-footer a:hover {
+    color: #FCB72B;
+}
+
+.about-site-nav-item-list-footer a {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    color: #939CAA;
+}
+
+.about-site-footer-sot-set-item {
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -50px;
+}
+
+.about-site-footer-sot-set-list {
+    margin-right: 20px;
+}
+
+.site-footer-sot-set-list {
+    margin: 20px;
+    margin-top: -1px;
+}
+
+@media only screen and (max-width:768px) {
+    .about-footer-bgc-img {
+        width: 768px;
+        height: 300px;
+    }
+    .about-footer-main-list-button-1 {
+        position: absolute;
+        margin-left: -150px;
+        width: 80px;
+        height: 59px;
+        border: none;
+    }
+    .about-footer-main-list-button-2 {
+        margin-left: -150px;
+        width: 80px;
+        height: 59px;
+        border: none;
+    }
+    .about-footer-main-list h2 {
+        margin-top: -30px;
+        text-align: center;
+        align-items: center;
+    }
+    .about-site-nav-footer {
+        width: 768px;
+        height: 96px;
+    }
+    .about-site-footer-sot-set-list {
+        margin-left: 10px;
+    }
+    .about-site-footer-sot-set-item {
+        margin-left: 500px;
+    }
+    .about-site-nav-item-footer {
+        margin-left: 200px;
+    }
+    .about-site-nav-item-footer a {
+        margin-left: -100px;
+    }
+}

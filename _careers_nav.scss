@@ -1,0 +1,106 @@
+.careers-bgc-img {
+    position: absolute;
+    background-image: url("../img/Careers-nav.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1330px;
+    height: 300px;
+    // margin-top: -1200px;
+    margin-left: 20px;
+}
+
+.nav-icon-careers {
+    position: absolute;
+    margin-left: -950px;
+}
+
+.navbar-careers {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: -450px;
+    height: 96px;
+    width: 1200px;
+}
+
+.site-nav-item-careers {
+    position: absolute;
+    display: flex;
+}
+
+.site-nav-item-list-careers {
+    margin-left: 100px;
+}
+
+.site-nav-item-list-careers a {
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+
+.site-nav-item-list-careers a:hover {
+    color: #FCB72B;
+}
+
+.site-btn-careers button {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 1050px;
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    color: white;
+    border: none;
+}
+
+.site-btn-careers button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+
+.hamburger-btn-careers {
+    display: none;
+    border: none;
+    background-color: transparent;
+    margin-top: -70px;
+}
+
+@media only screen and (max-width:768px) {
+    .careers-bgc-img {
+        // margin-left: -550px;
+        width: 700px;
+        height: 300px;
+    }
+    .navbar {
+        margin-left: -200px;
+    }
+    .site-nav-item-careers {
+        margin-left: 330px;
+    }
+    .site-btn-careers button {
+        position: absolute;
+        margin-left: 1000px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hamburger-btn {
+        display: block;
+        margin-top: 20px;
+    }
+    .site-nav-item {
+        display: none;
+    }
+    .site-btn button {
+        width: 150px;
+        height: 53px;
+    }
+}

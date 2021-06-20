@@ -1,0 +1,92 @@
+.navbar {
+    // position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -100px;
+    height: 96px;
+    width: 1440px;
+}
+
+.site-nav {
+    margin-left: -370px;
+}
+
+.site-nav-item {
+    display: flex;
+    // margin-right: 20px;
+}
+
+.site-nav-item-list {
+    margin-left: 15px;
+}
+
+.site-nav-item-list a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+.site-nav-item-list a:hover {
+    color: #FCB72B;
+}
+
+.site-btn button {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -70px;
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    color: white;
+    border: none;
+}
+
+.site-btn button:hover {
+    background-color: white;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+}
+
+.hamburger-btn {
+    display: none;
+    border: none;
+    background-color: transparent;
+    margin-top: -70px;
+}
+
+@media only screen and (max-width:768px) {
+    .site-btn button {
+        position: absolute;
+        margin-left: -500px;
+        width: 100px;
+        height: 53px;
+    }
+    .site-nav-item {
+        margin-left: -180px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .nav-icon {
+        top: 100%;
+    }
+    .hamburger-btn {
+        display: block;
+        margin-top: 25px;
+        margin-right: 600px;
+    }
+    .site-btn {
+        margin-left: -580px;
+        margin-top: 10px;
+    }
+    .site-nav-item {
+        display: none;
+    }
+    .site-btn button {
+        width: 100px;
+        height: 53px;
+    }
+}

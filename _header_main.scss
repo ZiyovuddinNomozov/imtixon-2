@@ -1,0 +1,53 @@
+  .site-main-item {
+      display: flex;
+      margin-left: 50px;
+      margin-top: 130px;
+  }
+  
+  .header-border {
+      position: absolute;
+      width: 930px;
+      height: 1px;
+      left: 90px;
+      margin-top: -45px;
+      border: 5px solid #E5ECF4;
+  }
+  
+  .site-main-section {
+      position: absolute;
+      margin-top: 700px;
+  }
+  
+  .site-main-item-list {
+      margin-right: 100px;
+  }
+  
+  .site-main-item-list img {
+      position: absolute;
+      margin-top: -90px;
+  }
+  
+  .site-main-item-list h5 {
+      // position: absolute;
+      width: 350px;
+      height: 28px;
+      font-family: Space Mono;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07143px;
+      color: #495567;
+  }
+  
+  .site-main-item-list p {
+      // position: absolute;
+      width: 350px;
+      height: 100px;
+      font-family: Lexend Deca;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 25px;
+      color: #939CAA;
+  }

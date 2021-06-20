@@ -1,0 +1,148 @@
+    .section-main-site {
+        position: absolute;
+    }
+    
+    .section-main-site-item-list {
+        display: flex;
+        position: absolute;
+    }
+    
+    .section-main-site-item-list h3 {
+        position: absolute;
+        width: 445px;
+        height: 96px;
+        left: 165px;
+        top: 1300px;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+    }
+    
+    .section-main-site-item-list p {
+        position: absolute;
+        width: 445px;
+        height: 100px;
+        left: 165px;
+        top: 1450px;
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+    
+    .section-main-site-item-list a {
+        position: absolute;
+        width: 180px;
+        height: 53px;
+        // left: 40px;
+        margin-top: 1660px;
+        margin-left: 170px;
+        background-color: #FCB72B;
+        font-family: Space Mono;
+        font-style: normal;
+        top: calc(50% - 25px/2);
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .section-main-site-item-list a:hover {
+        background-color: white;
+        color: #FCB72B;
+        border: 1px solid #FCB72B;
+    }
+    
+    .section-main-site-bgc-img {
+        background-image: url("../img/person-header-read-tel.png");
+        background-repeat: no-repeat;
+        position: relative;
+        width: 445px;
+        height: 445px;
+        left: 693px;
+        top: 1344px;
+        border-radius: 50%;
+    }
+    
+    @media only screen and (max-width:768px) {
+        .site-main-item {
+            display: flex;
+            flex-direction: column;
+            // margin-top: 100px;
+            // position: absolute;
+        }
+        .site-main-item-list {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            margin-left: -50px;
+        }
+        .site-main-item-list h5 {
+            margin-right: -200px;
+            position: absolute;
+            width: 398px;
+            height: 28px;
+            margin-left: 200px;
+            // left: 272px;
+            margin-top: -70px;
+        }
+        .site-main-item-list p {
+            margin-left: 200px;
+            width: 350px;
+            height: 75px;
+            margin-top: -15px;
+        }
+        .site-main-item-list img {
+            margin-top: -80px;
+            // display: none;
+        }
+        .site-main-item-list {
+            margin-top: 100px;
+        }
+        .header-border {
+            position: absolute;
+            width: 0px;
+            height: 600px;
+            left: 80px;
+            top: -50px;
+            border: 10px solid #E5ECF4;
+        }
+        .section-main-site-bgc-img {
+            margin-top: -700px;
+            margin-left: -560px;
+            width: 345px;
+            height: 345px;
+        }
+        .section-main-site-item-list {
+            text-align: center;
+            align-items: center;
+        }
+        .section-main-site-item-list h3 {
+            margin-top: -300px;
+            margin-left: -130px;
+            width: 457px;
+            height: 96px;
+            font-size: 38px;
+        }
+        .section-main-site-item-list p {
+            margin-left: -130px;
+            margin-top: -300px;
+        }
+        .section-main-site-item-list a {
+            position: absolute;
+            margin-top: 1300px;
+            width: 150px;
+            height: 53px;
+            margin-left: 190px;
+        }
+        .section-main-site-bgc-img {
+            width: 330px;
+            height: 330px;
+        }
+    }

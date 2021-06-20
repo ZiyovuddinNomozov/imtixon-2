@@ -1,0 +1,311 @@
+.about-main-values-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+.Our-values {
+    text-align: center;
+    align-items: center;
+    margin-top: 120px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    // text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+.about-main-values-list-1 {
+    margin-left: 60px;
+    width: 352px;
+    height: 512px;
+}
+
+.about-main-values-list-2 {
+    margin-left: 60px;
+    width: 352px;
+    height: 512px;
+}
+
+.about-main-values-list-3 {
+    margin-left: 60px;
+    width: 352px;
+    height: 512px;
+}
+
+.about-main-values-list-1 img {
+    border-radius: 50%;
+}
+
+.about-main-values-list-2 img {
+    border-radius: 50%;
+}
+
+.about-main-values-list-3 img {
+    border-radius: 50%;
+}
+
+.about-main-values-list-1 h5 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.about-main-values-list-2 h5 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.about-main-values-list-3 h5 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.about-main-values-list-1 p {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #939CAA;
+    width: 350px;
+    height: 75px;
+}
+
+.about-main-values-list-2 p {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #939CAA;
+    width: 350px;
+    height: 75px;
+}
+
+.about-main-values-list-3 p {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #939CAA;
+    width: 350px;
+    height: 75px;
+}
+
+.faqs {
+    position: absolute;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    align-items: center;
+    color: #495567;
+    margin-top: -400px;
+    margin-left: 500px;
+}
+
+.faq-works {
+    display: flex;
+    flex-direction: row;
+    margin-top: 700px;
+}
+
+.works {
+    position: absolute;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    letter-spacing: -1.78571px;
+    color: #495567;
+    margin-left: 180px;
+}
+
+.faq-work-item {
+    margin-left: 500px;
+    position: absolute;
+}
+
+.faq-works-list-1 {
+    // position: absolute;
+    width: 730px;
+    height: 191px;
+    background-color: #F2F5F9;
+}
+
+.faq-works-list {
+    // position: absolute;
+    width: 730px;
+    height: 110px;
+    background-color: #F2F5F9;
+}
+
+.faq-works-list-1 span {
+    position: absolute;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #495567;
+    width: 550px;
+    height: 75px;
+    margin-bottom: -100px;
+    padding: 100px, 140px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.faq-works-list-1 p {
+    margin-left: 40px;
+    padding: 10px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #495567;
+}
+
+.faq-works-list p {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    letter-spacing: -1.07143px;
+    color: #495567;
+    padding: 30px;
+}
+
+.faq-works-list-1::after {
+    content: '';
+    background-image: url("../img/teskari\ ehrom.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    width: 16px;
+    height: 8px;
+    margin-left: 650px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+.faq-works-list p::after {
+    content: '';
+    background-image: url("../img/teskarimas-ehrom.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    width: 16px;
+    height: 8px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px) {
+    .faq-works {
+        margin-top: 2500px;
+    }
+    .about-main-values {
+        // margin-top: 500px;
+    }
+    .Our-values {
+        // position: absolute;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 550px;
+        margin-left: -650px;
+        top: -50px;
+    }
+    .about-main-values-item {
+        display: inline-flex;
+        flex-direction: row;
+    }
+    .about-main-values-list {
+        // display: inline-flex;
+        flex-direction: column;
+        // flex-wrap: wrap;
+    }
+    .about-main-values-list-1 {
+        position: absolute;
+        margin-left: 800px;
+    }
+    .about-main-values-list-2 {
+        position: absolute;
+        margin-top: 1250px;
+        margin-left: 800px;
+    }
+    .about-main-values-list-3 {
+        position: absolute;
+        margin-top: 2400px;
+        margin-left: 800px;
+    }
+    .faq-work-item {
+        margin-left: -20px;
+    }
+    .faq-works-list-1 {
+        width: 680px;
+        height: 160px;
+        // padding-top: -10px;
+    }
+    .faq-works-list-1 span {
+        margin-top: -20px;
+        margin-right: 5px;
+    }
+    .faq-works-list {
+        width: 680px;
+        height: 90px;
+    }
+    .works {
+        margin-top: -150px;
+    }
+    .faqs {
+        // position: absolute;
+        margin-left: 250px;
+        // margin-top: 50px;
+    }
+}

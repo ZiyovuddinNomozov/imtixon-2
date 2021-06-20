@@ -1,0 +1,176 @@
+.about-header-cars {
+    background-image: url("../img/about-har-cars.png");
+    background-repeat: no-repeat;
+    background-size: 1340px, 200px;
+    width: 1440px;
+    height: 150px;
+}
+
+.about-header-digital {
+    display: flex;
+}
+
+.about-header-digital-list {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.about-header-digital-list h2 {
+    // position: absolute;
+    width: 445px;
+    height: 96px;
+    left: 165px;
+    top: 541px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+}
+
+.about-header-digital-list p {
+    position: relative;
+    width: 445px;
+    height: 75px;
+    // left: 115px;
+    top: -170px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #939CAA;
+}
+
+.about-header-digital-bgc-img {
+    background-image: url("../img/header-read-tel-girl.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 510px;
+    margin-top: 120px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.about-header-digital-2 {
+    display: flex;
+}
+
+.about-header-digital-bgc-img-2 {
+    background-image: url("../img/about-city.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 510px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+.about-header-digital-item-2 {
+    margin-top: 50px;
+}
+
+.about-header-digital-list-2 h2 {
+    position: relative;
+    width: 445px;
+    height: 96px;
+    // left: 803px;
+    // top: 1100px;
+    margin-left: 100px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+.about-header-digital-list-2 p {
+    position: relative;
+    width: 445px;
+    height: 75px;
+    // left: 303px;
+    // top: 1277px;
+    font-family: Lexend Deca;
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #939CAA;
+}
+
+@media only screen and (max-width:768px) {
+    .about-header-digital-bgc-img {
+        width: 300px;
+        height: 300px;
+        font-size: 38px;
+    }
+    .about-header-cars {
+        background-image: url("../img/about-har-cars.png");
+        background-size: cover;
+        width: 740px;
+        height: 150px;
+    }
+    .about-header-digital-item {
+        margin-top: 300px;
+    }
+    .about-header-digital-bgc-img {
+        margin-top: 160px;
+        margin-left: -470px;
+        width: 300px;
+        height: 310px;
+    }
+    .about-header-digital-list {
+        text-align: center;
+        align-items: center;
+    }
+    .about-header-digital-list h2 {
+        // position: absolute;
+        margin-top: -50px;
+        width: 440px;
+        height: 110px;
+        text-align: center;
+        align-items: center;
+    }
+    .about-header-digital-list p {
+        width: 573px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -60px;
+        text-align: center;
+        align-items: center;
+    }
+    .about-header-digital-2 {
+        position: absolute;
+        // margin-top: 300px;
+        // flex-direction: row;
+    }
+    .about-header-digital-bgc-img-2 {
+        width: 300px;
+        height: 310px;
+        margin-top: -150px;
+        margin-left: 200px;
+    }
+    .about-header-digital-list-2 h2 {
+        margin-top: 160px;
+        margin-left: -400px;
+        width: 457px;
+        height: 60px;
+        text-align: center;
+        align-items: center;
+    }
+    .about-header-digital-list-2 p {
+        margin-top: 70px;
+        margin-left: -400px;
+        text-align: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,106 @@
+ .section-main-site-3 {
+     position: absolute;
+ }
+ 
+ .section-main-site-item-list-3 {
+     display: flex;
+     position: absolute;
+ }
+ 
+ .section-main-site-item-list-3 h3 {
+     position: absolute;
+     width: 445px;
+     height: 96px;
+     left: 165px;
+     top: 2473px;
+     font-family: Space Mono;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 48px;
+     line-height: 48px;
+     /* or 100% */
+     letter-spacing: -2.14286px;
+     color: #495567;
+ }
+ 
+ .section-main-site-item-list-3 p {
+     position: absolute;
+     width: 445px;
+     height: 100px;
+     left: 165px;
+     top: 2640px;
+     font-family: Lexend Deca;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 15px;
+     line-height: 25px;
+     /* or 167% */
+     color: #939CAA;
+ }
+ 
+ .section-main-site-item-list-3 a {
+     position: absolute;
+     width: 180px;
+     height: 53px;
+     // left: 40px;
+     margin-top: 2860px;
+     margin-left: 170px;
+     background-color: #FCB72B;
+     font-family: Space Mono;
+     font-style: normal;
+     top: calc(50% - 25px/2);
+     font-weight: bold;
+     font-size: 15px;
+     text-align: center;
+     color: #FFFFFF;
+ }
+ 
+ .section-main-site-item-list-3 a:hover {
+     background-color: white;
+     color: #FCB72B;
+     border: 1px solid #FCB72B;
+ }
+ 
+ .section-main-site-bgc-img-3 {
+     background-image: url("../img/money.png");
+     background-repeat: no-repeat;
+     position: relative;
+     width: 445px;
+     height: 445px;
+     left: 750px;
+     margin-top: 2500px;
+     border-radius: 50%;
+ }
+ 
+ @media only screen and (max-width:768px) {
+     .section-main-site-item-list-3 {
+         position: absolute;
+         margin-top: 900px;
+         text-align: center;
+         align-items: center;
+     }
+     .section-main-site-bgc-img-3 {
+         //  position: absolute;
+         //  margin-top: 500px;
+         //  margin-left: -600px;
+         width: 345px;
+         height: 345px;
+         border: 10px solid red;
+     }
+     .section-main-site-item-list-3 p {
+         position: absolute;
+         margin-left: -100px;
+     }
+     .section-main-site-item-list-3 h3 {
+         margin-left: -100px;
+         position: absolute;
+         width: 457px;
+         height: 96px;
+         font-size: 38px;
+     }
+     .section-main-site-item-list-3 a {
+         position: absolute;
+         width: 150px;
+         height: 53px;
+     }
+ }
